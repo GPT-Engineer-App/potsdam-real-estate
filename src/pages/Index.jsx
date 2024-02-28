@@ -10,17 +10,17 @@ const Index = () => {
         <Flex align="center" justify="space-between" direction={{ base: "column", md: "row" }}>
           <Box>
             <Heading as="h1" size="xl" mb={4}>
-              Discover Your Dream Home in Potsdam
+              Discover Premium Business Spaces in Potsdam
             </Heading>
             <Text fontSize="lg" mb={4}>
-              Explore the finest properties in the heart of Brandenburg, Germany.
+              Find the ideal office rooms, day hospitals, and corporate spaces in Brandenburg, Germany.
             </Text>
             <Button leftIcon={<FaHome />} colorScheme="teal" variant="solid">
-              Browse Listings
+              Explore Business Rentals
             </Button>
           </Box>
           <Box>
-            <Image borderRadius="md" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwb3RzZGFtJTIwcmVhbCUyMGVzdGF0ZXxlbnwwfHx8fDE3MDkxMTkyMDR8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Potsdam Real Estate" />
+            <Image borderRadius="md" src="https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.0.3&q=80&w=1080" alt="Potsdam Business Real Estate" />
           </Box>
         </Flex>
         {/* Features section */}
@@ -29,19 +29,19 @@ const Index = () => {
             Why Choose Potsdam Real Estate?
           </Heading>
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
-            <Feature icon={<FaHome />} title="Prime Locations" text="Properties situated in the most desirable locations of Potsdam." />
-            <Feature icon={<FaHome />} title="Expert Agents" text="Experienced agents to guide you through every step of the process." />
-            <Feature icon={<FaHome />} title="Customer Satisfaction" text="Commitment to exceeding expectations and ensuring a smooth transaction." />
+            <Feature icon={<FaHome />} title="Strategic Locations" text="Office spaces and commercial properties in prime business sectors." />
+            <Feature icon={<FaHome />} title="Professional Support" text="Dedicated assistance for businesses to settle in smoothly." />
+            <Feature icon={<FaHome />} title="Tailored Solutions" text="Customized spaces for clinics, hostels, and corporate offices." />
           </SimpleGrid>
         </Box>
         {/* Contact section */}
         <Box>
           <Heading as="h2" size="lg" mb={6}>
-            Get in Touch
+            Contact Us for Business Rentals
           </Heading>
           <Stack spacing={3} direction="row" align="center">
             <Button leftIcon={<FaEnvelope />} colorScheme="blue" variant="ghost">
-              info@potsdamrealestate.com
+              business@potsdamrealestate.com
             </Button>
             <Button leftIcon={<FaPhoneAlt />} colorScheme="green" variant="ghost">
               +49 123 456 7890
